@@ -1,6 +1,6 @@
 // your JS code here
 document.getElementById("btn").addEventListener("click", function (event) {
-    event.preventDefault(); // stops form from reloading page
+    event.preventDefault(); 
 
     let fname = document.getElementById("First Name").value.trim();
     let lname = document.getElementById("Last Name").value.trim();
